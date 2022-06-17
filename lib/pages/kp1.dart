@@ -43,26 +43,29 @@ class _Kp1State extends State<Kp1> {
 bodyBuilder() {
   return Column(
     children: const [
-      Padding(padding: EdgeInsets.all(5), child: Strength()),
       Padding(
         padding: EdgeInsets.all(5),
-        child: Dexterity(),
+        child: Stats(stat: "Siła"),
       ),
       Padding(
         padding: EdgeInsets.all(5),
-        child: Constitution(),
+        child: Stats(stat: "Zręczność"),
       ),
       Padding(
         padding: EdgeInsets.all(5),
-        child: Intelligence(),
+        child: Stats(stat: "Kondycja"),
       ),
       Padding(
         padding: EdgeInsets.all(5),
-        child: Wisdom(),
+        child: Stats(stat: "Inteligencja"),
       ),
       Padding(
         padding: EdgeInsets.all(5),
-        child: Charisma(),
+        child: Stats(stat: "Mądrość"),
+      ),
+      Padding(
+        padding: EdgeInsets.all(5),
+        child: Stats(stat: "Charyzma"),
       ),
     ],
   );
