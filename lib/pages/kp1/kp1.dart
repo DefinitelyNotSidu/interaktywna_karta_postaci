@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:interaktywna_karta_postaci/widgets/stat.dart';
+import 'package:interaktywna_karta_postaci/pages/kp1/widgets/stat.dart';
 
 class Kp1 extends StatefulWidget {
   const Kp1({Key? key}) : super(key: key);

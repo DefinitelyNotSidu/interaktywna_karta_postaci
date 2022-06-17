@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/kp1.dart';
+import 'pages/kp1/kp1.dart';
 
 void main() {
   runApp(
